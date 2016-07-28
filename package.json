@@ -1,0 +1,24 @@
+{
+  "name": "google-app-indexing-cordova",
+  "version": "1.0.0",
+  "description": "Android Google App Indexing Cordova Plugin",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eneskaya/google-app-indexing-cordova.git"
+  },
+  "author": "Enes Kaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eneskaya/google-app-indexing-cordova/issues"
+  },
+  "homepage": "https://github.com/eneskaya/google-app-indexing-cordova#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "google-app-indexing"
+  ]
+}
