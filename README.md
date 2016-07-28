@@ -8,13 +8,17 @@ Be sure, that you have deeplinking enabled in your android app! I recommend you 
 
 ### Installation
 
-In your Ionic/Cordova application do:
+In your Cordova application do:
 
 ```
 cordova plugin add google-app-indexing-cordova`
 ```
 
-**Note**: At the moment this plugin is not yet submitted to the Cordova Plugins directory. I will submit it soon.
+For Ionic:
+
+```
+ionic plugin add google-app-indexing-cordova`
+```
 
 ### Usage
 
