@@ -36,13 +36,13 @@ public class AppIndexing extends CordovaPlugin {
   public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException
   {
     if (VIEW_STARTED.equals(action)) {
-      this.startView(args.getString(0), args.getString(1), args.getString(2));
+      this.startView(args.getString(0), args.getString(1), args.getString(2), args.getString(3));
       callbackContext.success();
       return true;
     }
 
     if (VIEW_ENDED.equals(action)) {
-      this.endView(args.getString(0), args.getString(1), args.getString(2));
+      this.endView(args.getString(0), args.getString(1), args.getString(2), args.getString(3));
       callbackContext.success();
       return true;
     }
