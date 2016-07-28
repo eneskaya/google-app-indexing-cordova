@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="google-app-indexing-cordova-android"
+        version="1"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>Android Google App Indexing Cordova Plugin</name>
+
+    <description>
+      Push History to Google App Indexing for Cordova apps.
+    </description>
+
+    <repo>https://github.com/eneskaya/google-app-indexing-cordova</repo>
+
+    <js-module name="GoogleAppIndexing" src="www/google-app-indexing.js">
+        <clobbers target="plugins.AppIndexing" />
+    </js-module>
+
+    <engines>
+        <engine name="cordova-android" version=">=4.0.0" />
+        <engine name="cordova-ios" version=">=3.0.0" />
+    </engines>
+
+    <platform name="android">
+
+      <config-file target="config.xml" parent="/*">
+          <feature name="AppIndexing">
+              <param name="android-package" value="de.eneskaya.appindexing.AppIndexing"/>
+          </feature>
+      </config-file>
+
+      <framework src="com.google.android.gms:play-services-appindexing:+" />
+      <framework src="com.google.android.gms:play-services:+" />
+
+      <source-file src="src/android/AppIndexing.java" target-dir="src/de/eneskaya/appindexing" />
+
+    </platform>
+
+
+</plugin>
