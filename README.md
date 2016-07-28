@@ -32,9 +32,10 @@ indexed at all, if they see such behaviour.
 ### `webPath` and `androidPath`
 
 If you're confused about the two paths, please read on https://developers.google.com/app-indexing first.
-The webPath is your content accessible via the web *(e.g. http://example.com)*. Whereas the androidPath is
+The webPath is your content accessible via the web *(e.g. http://example.com/path/to/some-content)*. Whereas the androidPath is
 the deeplink to your android app in the style of `android-app://{app package identifier}/{scheme}/{path}}`
-*(e.g. android-app://de.example.com/https/path/to/some-content)*
+*(e.g. android-app://de.example.com/https/path/to/some-content)*. Ideally the path should be the same for web and deeplink,
+but that's up to you.
 
 ### Got questions?
 
