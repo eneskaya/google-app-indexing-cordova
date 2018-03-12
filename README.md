@@ -1,3 +1,8 @@
+### NOT MAINTAINED
+This package is not actively maintained and should not be used anymore.
+
+------
+
 ## Google App Indexing for Cordova/Ionic apps (Android only)
 
 Further information on App Indexing: https://developers.google.com/app-indexing
